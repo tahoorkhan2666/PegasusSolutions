@@ -1,6 +1,7 @@
 public class CreateContactUtility {
     
     public static void method1(List<Account> lstact){
+        // code changed in github
         List<Contact> conlst = new List<Contact>();
         if(lstact.size()>0){
          for(Account acc : lstact)
