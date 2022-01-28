@@ -1,0 +1,7 @@
+<apex:page standardController="Contact" extensions="DemoCallDetailButton" >
+    <apex:form >
+    <apex:commandButton action="{!doSomething}" value="DO SOMETHING" />
+        {!greeting}
+    
+    </apex:form>
+</apex:page>

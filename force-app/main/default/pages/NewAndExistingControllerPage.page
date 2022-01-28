@@ -1,0 +1,18 @@
+<apex:page controller="NewAndExistingController" tabStyle="Account">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessages />
+            <apex:pageBlockSection >
+                <apex:inputField value="{!account.name}" />
+                <apex:inputField value="{!account.phone}" />
+                <apex:inputField value="{!account.industry}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom" >
+            <apex:commandButton value="SAVE" action="{!save}" />
+            </apex:pageBlockButtons>
+            
+            
+        </apex:pageBlock>
+    
+    </apex:form>
+</apex:page>

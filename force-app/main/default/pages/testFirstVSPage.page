@@ -1,0 +1,12 @@
+<apex:page standardController="account">
+    
+    <h1>
+        {!account.name}
+        {!$User.Email}
+        
+    </h1>
+        
+
+
+
+</apex:page>

@@ -1,0 +1,22 @@
+<apex:page standardController="Account"  extensions="Demo" recordSetVar="Accounts" >
+    <apex:pageBlock title="Viewing Accounts ">
+    <apex:form id="theform">
+        <apex:pageBlockSection >
+            <apex:dataList value="{!AccountPag}"  var="acct"  type="1">
+                
+            {!acct.name}
+            
+            </apex:dataList>
+        
+        
+        </apex:pageBlockSection>
+        <apex:panelGrid columns="2">
+            <apex:commandButton action="{!previous}"  value="<<PRE" />
+        <apex:commandButton action="{!next}"  value="NEXT>>" />
+        
+        </apex:panelGrid>
+        
+     </apex:form>
+    
+    </apex:pageBlock>
+</apex:page>

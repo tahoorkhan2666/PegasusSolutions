@@ -1,0 +1,5 @@
+<apex:page standardController="lead">
+   <h1>
+       Battle station {!lead.name}
+    </h1> 
+</apex:page>

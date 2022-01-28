@@ -1,0 +1,5 @@
+<apex:page >
+<apex:image url="{!($Resource.Udemy1)}"  width="100px"   height="100px" />
+    <apex:image url="{!URLFOR($Resource.ImagesDocs1 , 'sr-images/word.docx , sr-images/laptop.jpeg')}" />
+
+</apex:page>

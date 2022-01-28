@@ -1,0 +1,4 @@
+<apex:page controller="DemoController">
+Congratulations You are viewing <h1>{!name}</h1> page.
+
+</apex:page>
